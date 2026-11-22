@@ -6,7 +6,7 @@ license = { file = "LICENSE" }
 dependencies = ["torch", "numpy", "Pillow"]
 
 [project.urls]
-Repository = "https://github.com"
+Repository = "https://github.com/aimpowerment/ComfyUI-PBR-Material-Generator"
 
 [tool.comfy]
 PublisherId = "aimpowerment"
