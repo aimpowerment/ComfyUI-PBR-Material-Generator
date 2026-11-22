@@ -54,7 +54,7 @@ An all-in-one **PBR Material Generator & Interactive Three.js 3D Preview Node** 
 
 ### :scroll: License & Third-Party References
 
-- Code in this repository is licensed under the **MIT License** (attribution required).
+- Code in this repository is licensed under the **Apache License 2.0.** (attribution required).
 - Powered by [Three.js](https://threejs.org/) (r170) for WebGL 3D rendering, orbit controls, and GLB/OBJ exporters, and [fflate](https://github.com/101arrowz/fflate) (0.8.2) for compression, both licensed under the **MIT License**. See `THIRD-PARTY-LICENSES.txt` for full license notices.
 
 [↑ Back to top](#top)
@@ -152,7 +152,7 @@ Un nœud tout-en-un **Générateur de matériaux PBR et Aperçu 3D interactif Th
 
 ### :scroll: Licence & Références tierces
 
-- Le code de ce dépôt est sous **licence MIT** (mention de l'auteur requise).
+- Le code de ce dépôt est sous **Apache License 2.0.** (mention de l'auteur requise).
 - Propulsé par [Three.js](https://threejs.org/) (r170) pour le rendu 3D WebGL, les contrôles orbitaux et les exportateurs GLB/OBJ, ainsi que [fflate](https://github.com/101arrowz/fflate) (0.8.2) pour la compression (tous deux sous **licence MIT**). Consultez `THIRD-PARTY-LICENSES.txt` pour les mentions complètes.
 
 [↑ Haut de page](#top)
@@ -205,7 +205,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 
 ### :scroll: Licencia y referencias de terceros
 
-- El código de este repositorio está bajo la **Licencia MIT** (requiere atribución).
+- El código de este repositorio está bajo la **Licencia Apache 2.0.** (requiere atribución).
 - Impulsado por [Three.js](https://threejs.org/) (r170) para el renderizado 3D WebGL, controles orbitales y exportadores GLB/OBJ, y [fflate](https://github.com/101arrowz/fflate) (0.8.2) para la compresión (ambos bajo la **Licencia MIT**). Consulta `THIRD-PARTY-LICENSES.txt` para ver los avisos completos.
 
 [↑ Volver arriba](#top)
@@ -258,7 +258,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 
 ### :scroll: Лицензия и сторонние компоненты
 
-- Код в этом репозитории распространяется под **лицензией MIT** (с обязательным указанием авторства).
+- Код в этом репозитории распространяется под **лицензией Apache 2.0.** (с обязательным указанием авторства).
 - Работает на базе [Three.js](https://threejs.org/) (r170) для 3D-рендеринга WebGL, управления камерой и экспортеров GLB/OBJ, а также [fflate](https://github.com/101arrowz/fflate) (0.8.2) для сжатия данных (оба под **лицензией MIT**). Полные уведомления о лицензиях см. в файле `THIRD-PARTY-LICENSES.txt`.
 
 [↑ Наверх](#top)
@@ -311,7 +311,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 
 ### :scroll: 开源协议与第三方引用
 
-- 本仓库代码采用 **MIT 许可证**（需保留署名）。
+- 本仓库代码采用 **Apache 2.0. 许可证**（需保留署名）。
 - 由 [Three.js](https://threejs.org/) (r170) 提供 WebGL 3D 渲染、轨道控制及 GLB/OBJ 导出功能，并由 [fflate](https://github.com/101arrowz/fflate) (0.8.2) 提供数据压缩支持（两者均采用 **MIT 许可证**）。完整许可声明请参阅 `THIRD-PARTY-LICENSES.txt`。
 
 [↑ 返回顶部](#top)
