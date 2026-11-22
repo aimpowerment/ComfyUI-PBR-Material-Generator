@@ -60,62 +60,49 @@ An all-in-one **PBR Material Generator & Interactive Three.js 3D Preview Node** 
 [↑ Back to top](#top)
 <div id="top"></div>
 
-# ComfyUI PBR Material Generator
-
-🌐 **Language / Sprache / Langue / Idioma / Язык / 语言:**  
-[![EN](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/gb.svg) English](#english) | [![DE](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/de.svg) Deutsch](#deutsch) | [![FR](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/fr.svg) Français](#français) | [![ES](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/es.svg) Español](#español) | [![RU](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/ru.svg) Русский](#русский) | [![ZH](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/cn.svg) 中文](#中文)
-
 ---
 
-<a id="english"></a>
-## ![EN](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/gb.svg) English
+<a id="deutsch"></a>
+##  ![DE](https://raw.githubusercontent.com/aimpowerment/.github/main/assets/img/de.svg) Deutsch
 
-### ⚡ Ultra-Fast, AI-Free PBR Map Generation & Real-Time 3D Preview
+### ⚡ Superschnelle PBR-Generierung ohne KI & Echtzeit-3D-Vorschau
 
-An all-in-one **PBR Material Generator & Interactive Three.js 3D Preview Node** for ComfyUI. Because **no AI models are required**, all maps are computed **ultra-fast in real time** via pure GPU shader math. Generate **Albedo (De-Lit Base Color)**, **Depth/Height**, **Normal (Macro + Micro Detail Mix)**, **Roughness**, **Metalness**, and **Multi-Scale Ambient Occlusion** maps from a single image—or optionally connect your own custom PBR maps and HDR/EXR environment maps—and inspect, relight, and export the displaced mesh as **GLB** or **OBJ** directly inside ComfyUI.
+Eine All-in-One-Node für **PBR-Material-Generierung & interaktive Three.js 3D-Vorschau** in ComfyUI, die komplett ohne KI-Modelle auskommt und alle Maps (Albedo, Depth, Normal, Roughness, Metalness und Ambient Occlusion) per GPU-Shader in Echtzeit berechnet. Das fertige Relief kann direkt als GLB oder OBJ exportiert werden.
 
-### :sparkles: Features
+### :sparkles: Funktionen
 
-- :zap: **Ultra-Fast, AI-Free Full PBR Generation:** Computes 6 PBR outputs instantly using pure shader-style GPU math (no AI weights or heavy model downloads required) from a single `IMAGE` input:
-  - `base_color` with optional **Albedo De-Lighting** (`delight_strength`) to remove baked-in shadows and highlights.
-  - `depth_map` with adjustable contrast, smoothness, and depth inversion.
-  - `normal_map` combining macro smoothness and high-frequency micro-detail blending (`detail_mix`) plus OpenGL/DirectX Y-axis flip (`invert_normal_y`).
-  - `roughness_map` with configurable base roughness (`roughness_base`), contrast, and inversion.
-  - `metalness_map` via luminance and chroma thresholding.
-  - `ao_map` via multi-scale cavity/horizon occlusion.
-- :electric_plug: **Optional Custom Map Inputs:** Optionally plug in your own external maps (`height_depth`, `normal_map`, `roughness_map`, `metalness_map`, `ao_map`, or `env_map`) to inspect them directly inside the 3D viewer.
-- :package: **10 Built-in 3D Preview Meshes:** Switch live between `Plane (Relief)`, `Box`, `Sphere`, `Cylinder`, `Cone`, `Torus`, `TorusKnot`, `Capsule`, `Dodecahedron`, and `Icosahedron` with seamless edge-faded displacement.
-- :bulb: **9 Kelvin Lighting Presets:** From `Candle (1900 K)` and `Gallery Warm (3200 K)` to `Daylight (5500 K)`, `Overcast (7500 K)`, and `Gallery Contrast (3000K / 7000K)`.
-- :globe_with_meridians: **Environment Lighting & UV Tiling:** Toggle environment background visibility (`Env BG`), adjust `Env Int` and real-time `Env Blur`, and test seamless tiling (`1x` – `4x`).
-- :frame_with_picture: **Gallery Frame & Solo Map Inspection:** Preview with optional dark or bronze shadow-gap frames, wireframe overlay, and solo map views (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
-- :floppy_disk: **1-Click Baked 3D Export:** Export displaced geometry directly to binary **`.glb`**, **`.obj`**, or high-res **`.png`** preview screenshot, or copy material settings via **Copy Config**.
-- :white_check_mark: **100% Offline Ready:** Bundles Three.js locally (`web/three_bundle.min.js`) with zero external CDN requests at runtime.
+- :zap: **Superschnelle PBR-Generierung ohne KI:** Berechnet 6 PBR-Outputs verzögerungsfrei aus einem einzigen `IMAGE`-Eingang (inklusive Albedo De-Lighting, Depth, Normal-Mix, Roughness, Metalness und AO).
+- :electric_plug: **Optionale eigene Maps:** Unterstützt das Einbinden eigener externer Maps (`height_depth`, `normal_map`, `roughness_map`, `metalness_map`, `ao_map`, `env_map`).
+- :package: **10 integrierte 3D-Objekte:** Wechseln Sie live zwischen Plane, Box, Sphere, Cylinder, Cone, Torus, TorusKnot, Capsule, Dodecahedron und Icosahedron.
+- :bulb: **9 Kelvin-Lichtprofile & Umgebung:** Von Candle (1900 K) über Daylight (5500 K) bis Gallery Contrast, inklusive Live-Hintergrund und UV-Tiling (`1x`–`4x`).
+- 🖼️ **Galerierahmen & Exporte:** Bietet Solo-Ansichten, Wireframe-Modus sowie einen 1-Klick-Export als `.glb`, `.obj` oder `.png`-Screenshot.
+- :white_check_mark: **100 % Offline-fähig:** Inklusive lokalem Three.js-Bundle (`web/three_bundle.min.js`) ganz ohne externe Laufzeit-Abhängigkeiten.
 
 ### :wrench: Installation
 
-#### Option 1: Via ComfyUI Manager (Recommended)
-1. Open **ComfyUI Manager** → **Custom Nodes Manager**.
-2. Search for **`ComfyUI PBR Material Generator`** (or **`PBR Material Generator`**) and click **Install**.
-3. Restart ComfyUI and refresh your browser (`Ctrl + Shift + R`).
+#### Option 1: Über den ComfyUI Manager (Empfohlen)
+1. Öffne den **ComfyUI Manager** → **Custom Nodes Manager**.
+2. Suche nach **`ComfyUI PBR Material Generator`** und klicke auf **Install**.
+3. Starte ComfyUI neu und lade den Browser neu (`Strg + Shift + R`).
 
-#### Option 2: Manual Installation (Git)
-1. Navigate to your ComfyUI `custom_nodes` directory:
-   cd ComfyUI/custom_nodes
-2. Clone this repository:
-   git clone https://github.com/aimpowerment/ComfyUI-PBR-Material-Generator.git
-3. Restart ComfyUI and refresh your browser (`Ctrl + Shift + R`).
+#### Option 2: Manuelle Installation (Git)
+1. Wechsle in das Verzeichnis `ComfyUI/custom_nodes`.
+2. Klone das Repository: `git clone https://github.com`
+3. Starte ComfyUI neu und lade den Browser neu (`Strg + Shift + R`).
 
-### :rocket: Usage
+### :rocket: Verwendung
 
-1. Add the node via **Right-Click → Add Node → 3D/Preview → `PBR Material Generator`**.
-2. Connect any `IMAGE` to the `image` input and click **Run**.
-3. Use the interactive HUD (top-right) to tune displacement depth, normal strength, roughness, metalness, AO, light intensity, environment intensity, and environment blur in real time.
-4. Use the bottom bar to switch 3D primitives, inspect solo maps, change Kelvin lighting temperatures, toggle UV tiling (`1x`–`4x`), or export your displaced mesh as `.glb` or `.obj`.
+1. Füge die Node über **Rechtsklick → Add Node → 3D/Preview → `PBR Material Generator`** hinzu.
+2. Verbinde ein `IMAGE` mit dem Eingang und klicke auf **Run**.
+3. Passe Parameter wie Tiefe, Normal-Stärke, Roughness oder Lichtprofile direkt im HUD und der unteren Leiste an.
 
-### :scroll: License & Third-Party References
+### :scroll: Lizenz & Referenzen auf Drittanbieter-Software
 
-- Code in this repository is licensed under the **MIT License** (attribution required).
-- Powered by [Three.js](https://threejs.org/) (r170) for WebGL 3D rendering, orbit controls, and GLB/OBJ exporters, and [fflate](https://github.com/101arrowz/fflate) (0.8.2) for compression, both licensed under the **MIT License**. See `THIRD-PARTY-LICENSES.txt` for full license notices.
+- Der Code steht unter der **Apache License 2.0**.
+- Basiert auf [Three.js](https://threejs.org) (r170) und [fflate](https://github.com) (0.8.2) unter der **MIT-Lizenz** (vollständige Hinweise in `THIRD-PARTY-LICENSES.txt`).
+
+[↑ Nach oben](#top)
+
 
 [↑ Back to top](#top)
 ---
