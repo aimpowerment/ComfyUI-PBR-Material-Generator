@@ -1,6 +1,7 @@
-<div id="top"></div>
-![ComfyUI PBR Material Generator Header](assets/header.jpg)
+![ComfyUI PBR Material Generator Banner](assets/banner.jpg)
 
+
+<div id="top"></div>
 # ComfyUI PBR Material Generator
 
 🌐 **Language / Sprache / Langue / Idioma / Язык / 语言:**  
