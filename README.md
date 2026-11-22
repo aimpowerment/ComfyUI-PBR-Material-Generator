@@ -1,4 +1,5 @@
 <div id="top"></div>
+![ComfyUI PBR Material Generator Header](assets/header.png)
 
 # ComfyUI PBR Material Generator
 
