@@ -1,6 +1,6 @@
 [project]
 name = "comfyui-pbr-material-generator"
-description = "All-in-one AI-free PBR Material Generator & Interactive Three.js 3D Preview Node for ComfyUI."
+description = "All-in-one AI-free PBR material generator & interactive Three.js 3D Preview Node for ComfyUI."
 version = "1.0.0"
 license = { file = "LICENSE" }
 dependencies = ["torch", "numpy", "Pillow"]
