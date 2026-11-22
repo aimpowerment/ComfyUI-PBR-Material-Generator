@@ -11,4 +11,4 @@ Repository = "https://github.com/aimpowerment/ComfyUI-PBR-Material-Generator"
 [tool.comfy]
 PublisherId = "aimpowerment"
 DisplayName = "ComfyUI PBR Material Generator"
-Icon = ""
+Icon = "https://github.com/aimpowerment/ComfyUI-PBR-Material-Generator/ComfyUI-PBR-Material-Generator.jpg"
