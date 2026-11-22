@@ -87,7 +87,7 @@ Eine All-in-One-Node für **PBR-Material-Generierung & interaktive Three.js 3D-V
 
 #### Option 2: Manuelle Installation (Git)
 1. Wechsle in das Verzeichnis `ComfyUI/custom_nodes`.
-2. Klone das Repository: `git clone https://github.com`
+2. Klone das Repository: `git clone https://github.com/aimpowerment/ComfyUI-PBR-Material-Generator.git`
 3. Starte ComfyUI neu und lade den Browser neu (`Strg + Shift + R`).
 
 ### :rocket: Verwendung
@@ -103,8 +103,6 @@ Eine All-in-One-Node für **PBR-Material-Generierung & interaktive Three.js 3D-V
 
 [↑ Nach oben](#top)
 
-
-[↑ Back to top](#top)
 ---
 
 <a id="français"></a>
