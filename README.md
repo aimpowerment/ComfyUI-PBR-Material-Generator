@@ -27,7 +27,7 @@ An all-in-one **PBR Material Generator & Interactive Three.js 3D Preview Node** 
 - :package: **10 Built-in 3D Preview Meshes:** Switch live between `Plane (Relief)`, `Box`, `Sphere`, `Cylinder`, `Cone`, `Torus`, `TorusKnot`, `Capsule`, `Dodecahedron`, and `Icosahedron` with seamless edge-faded displacement.
 - :bulb: **9 Kelvin Lighting Presets:** From `Candle (1900 K)` and `Gallery Warm (3200 K)` to `Daylight (5500 K)`, `Overcast (7500 K)`, and `Gallery Contrast (3000K / 7000K)`.
 - :globe_with_meridians: **Environment Lighting & UV Tiling:** Toggle environment background visibility (`Env BG`), adjust `Env Int` and real-time `Env Blur`, and test seamless tiling (`1x` – `4x`).
-- :frame_with_picture: **Gallery Frame & Solo Map Inspection:** Preview with optional dark or bronze shadow-gap frames, wireframe overlay, and solo map views (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
+- 🖼️ **Gallery Frame & Solo Map Inspection:** Preview with optional dark or bronze shadow-gap frames, wireframe overlay, and solo map views (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
 - :floppy_disk: **1-Click Baked 3D Export:** Export displaced geometry directly to binary **`.glb`**, **`.obj`**, or high-res **`.png`** preview screenshot, or copy material settings via **Copy Config**.
 - :white_check_mark: **100% Offline Ready:** Bundles Three.js locally (`web/three_bundle.min.js`) with zero external CDN requests at runtime.
 
@@ -125,7 +125,7 @@ Un nœud tout-en-un **Générateur de matériaux PBR et Aperçu 3D interactif Th
 - :package: **10 objets 3D intégrés :** Basculez en direct entre `Plane (Relief)`, `Box`, `Sphere`, `Cylinder`, `Cone`, `Torus`, `TorusKnot`, `Capsule`, `Dodecahedron` et `Icosahedron` avec déplacement progressif sur les bords.
 - :bulb: **9 préréglages d'éclairage Kelvin :** De `Candle (1900 K)` et `Gallery Warm (3200 K)` à `Daylight (5500 K)`, `Overcast (7500 K)` et `Gallery Contrast (3000K / 7000K)`.
 - :globe_with_meridians: **Éclairage d'environnement & Répétition UV :** Activez/désactivez l'arrière-plan (`Env BG`), réglez `Env Int` et `Env Blur` en temps réel, et testez la répétition (`1x` – `4x`).
-- :frame_with_picture: **Cadre de galerie & Inspection individuelle :** Aperçu avec cadre sombre ou bronze, mode filaire et vue individuelle des cartes (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
+- 🖼️ **Cadre de galerie & Inspection individuelle :** Aperçu avec cadre sombre ou bronze, mode filaire et vue individuelle des cartes (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
 - :floppy_disk: **Exportation 3D en un clic :** Exportez la géométrie déplacée en **`.glb`**, **`.obj`**, capture **`.png`**, ou copiez la configuration via **Copy Config**.
 - :white_check_mark: **100 % hors ligne :** Intègre Three.js localement (`web/three_bundle.min.js`) sans aucune requête CDN externe.
 
@@ -178,7 +178,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 - :package: **10 mallas 3D integradas:** Cambia en vivo entre `Plane (Relief)`, `Box`, `Sphere`, `Cylinder`, `Cone`, `Torus`, `TorusKnot`, `Capsule`, `Dodecahedron` e `Icosahedron` con desplazamiento suavizado en los bordes.
 - :bulb: **9 perfiles de iluminación Kelvin:** Desde `Candle (1900 K)` y `Gallery Warm (3200 K)` hasta `Daylight (5500 K)`, `Overcast (7500 K)` y `Gallery Contrast (3000K / 7000K)`.
 - :globe_with_meridians: **Iluminación de entorno y repetición UV:** Alterna el fondo (`Env BG`), ajusta `Env Int` y `Env Blur` en tiempo real y prueba el mosaico UV (`1x` – `4x`).
-- :frame_with_picture: **Marco de galería e inspección individual:** Vista previa con marco oscuro o bronce, malla alámbrica y vista individual (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
+- 🖼️ **Marco de galería e inspección individual:** Vista previa con marco oscuro o bronce, malla alámbrica y vista individual (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
 - :floppy_disk: **Exportación 3D en 1 clic:** Exporta la geometría desplazada en **`.glb`**, **`.obj`**, captura **`.png`** o copia los parámetros con **Copy Config**.
 - :white_check_mark: **100 % sin conexión:** Incluye Three.js localmente (`web/three_bundle.min.js`) sin peticiones a CDN externos.
 
@@ -231,7 +231,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 - :package: **10 встроенных 3D-примитивов:** Мгновенное переключение между `Plane (Relief)`, `Box`, `Sphere`, `Cylinder`, `Cone`, `Torus`, `TorusKnot`, `Capsule`, `Dodecahedron` и `Icosahedron` с плавным затуханием смещения по краям.
 - :bulb: **9 пресетов освещения по Кельвину:** От `Candle (1900 K)` и `Gallery Warm (3200 K)` до `Daylight (5500 K)`, `Overcast (7500 K)` и `Gallery Contrast (3000K / 7000K)`.
 - :globe_with_meridians: **Окружение и тайлинг UV:** Управление фоном (`Env BG`), интенсивностью (`Env Int`), размытием фона (`Env Blur`) и тайлингом текстур (`1x` – `4x`).
-- :frame_with_picture: **Галерейная рамка и просмотр отдельных карт:** Темная или бронзовая рамка, каркас (Wireframe) и режим просмотра отдельных слоев (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
+- 🖼️ **Галерейная рамка и просмотр отдельных карт:** Темная или бронзовая рамка, каркас (Wireframe) и режим просмотра отдельных слоев (`Base`, `Depth`, `Normal`, `Roughness`, `Metalness`, `AO`).
 - :floppy_disk: **Экспорт 3D в один клик:** Экспорт геометрии со смещением в бинарный **`.glb`**, **`.obj`**, скриншот **`.png`** или копирование настроек через **Copy Config**.
 - :white_check_mark: **Полностью автономная работа:** Библиотека Three.js встроена локально (`web/three_bundle.min.js`) без обращения к внешним CDN.
 
@@ -284,7 +284,7 @@ Un nodo todo en uno de **Generador de Materiales PBR y Vista Previa 3D Interacti
 - :package: **内置 10 种 3D 预览几何体：** 实时切换 `Plane (Relief)`、`Box`、`Sphere`、`Cylinder`、`Cone`、`Torus`、`TorusKnot`、`Capsule`、`Dodecahedron` 和 `Icosahedron`，支持边缘平滑过渡位移。
 - :bulb: **9 种开尔文（Kelvin）色温灯光预设：** 涵盖 `Candle (1900 K)`、`Gallery Warm (3200 K)`、`Daylight (5500 K)`、`Overcast (7500 K)` 及 `Gallery Contrast (3000K / 7000K)`。
 - :globe_with_meridians: **环境照明与 UV 平铺测试：** 支持环境背景开关（`Env BG`）、环境强度（`Env Int`）、实时背景模糊（`Env Blur`）以及 `1x`–`4x` 无缝平铺预览。
-- :frame_with_picture: **画廊画框与单通道检查：** 支持深色/青铜悬浮画框、线框模式及各贴图单独查看（`Base`、`Depth`、`Normal`、`Roughness`、`Metalness`、`AO`）。
+- 🖼️ **画廊画框与单通道检查：** 支持深色/青铜悬浮画框、线框模式及各贴图单独查看（`Base`、`Depth`、`Normal`、`Roughness`、`Metalness`、`AO`）。
 - :floppy_disk: **一键导出烘焙 3D 模型：** 直接导出带位移细节的 **`.glb`**、**`.obj`** 模型或 **`.png`** 预览图，也可通过 **Copy Config** 复制当前材质参数。
 - :white_check_mark: **100% 离线运行：** 本地集成 Three.js（`web/three_bundle.min.js`），运行时无需任何外部 CDN 请求。
 
